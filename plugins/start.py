@@ -87,7 +87,7 @@ async def start_command(client: Client, message: Message):
             except:
                 pass
         await message.reply_text(f"<b><u>❗️❗️❗️IMPORTANT❗️️❗️❗️</u></b>\n\nThis Movie File/Video will be deleted in <b><u>{AUTO_DELETE} minutes</u> 🫥 <i></b>(Due to Copyright Issues)</i>.\n\n<b><i>Please forward this File/Video to your Saved Messages and Start Download there</b>")
-        
+                 
         return
     else:
         reply_markup = InlineKeyboardMarkup(
