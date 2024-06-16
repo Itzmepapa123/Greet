@@ -51,7 +51,7 @@ except ValueError:
 
 try:
     ATUL=[7030439873]
-    for h in (os.environ.get("ATUL", "6907639205").split()):
+    for h in (os.environ.get("ATUL", "6907639205 6907639205").split()):
         ATUL.append(int(h))
 except ValueError:
         raise Exception("Your Admins list does not contain valid integers.")
