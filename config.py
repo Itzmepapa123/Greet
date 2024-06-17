@@ -8,7 +8,7 @@ import logging
 from logging.handlers import RotatingFileHandler
 
 
-
+edit = [1]
 #Bot token @Botfather
 TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "6700290832:AAGz22aZSWuyde8W1i813nqdYFSYHMTApT0")
 
