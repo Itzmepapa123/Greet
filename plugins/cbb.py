@@ -10,7 +10,7 @@ async def cb_handler(client: Bot, query: CallbackQuery):
     data = query.data
     if data == "about":
         await query.message.edit_text(
-            text = f"<b>┏━━━━━•◦●◉✿ ❟❛❟ ✿◉●◦•━━━━━━┓\n┃ Dҽʋҽʅσρҽɾ : <a href='tg://user?id={7030439873}'>ɱɾ Ⴆαɳƙαι </a>\n┃ ¢яєαтσя : <a href='tg://user?id={OWNER_ID}'> тнιѕ ℓєgєη∂ вσу </a>\n┃ Lαɳɠυαɠҽ : <code>Python3</code>\n┃ LιႦɾαɾყ : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio {version}</a>\n┃ ѕσυя¢є ¢σ∂є : <a href=https://t.me/Mr_Bankaiiii>тαℓк тσ нιм</a>\n┃ мαιη ¢нαηηєℓ : <a href=https://t.me/Animex_Hyper>αɳιɱҽ hyper</a>\n┃ Sυρρσɾƚ Gɾσυρ : <a href=https://t.me/AnimeX_Chatting>ѕυρρσят gяσυρ</a>\n┗━━━━━•◦●◉✿ ❟❛❟ ✿◉●◦•━━━━━━┛</b>",
+            text = f"<b>┏━━━━━•◦●◉✿ ❟❛❟ ✿◉●◦•━━━━━━┓\n┃ Dҽʋҽʅσρҽɾ : <a href='tg://user?id={7030439873}'>ɱɾ Ⴆαɳƙαι </a>\n┃ ¢яєαтσя : <a href='tg://user?id={OWNER_ID}'> тнιѕ ℓєgєη∂ вσу </a>\n┃ Lαɳɠυαɠҽ : <code>Python3</code>\n┃ LιႦɾαɾყ : <a href='https://docs.pyrogram.org/'>Pyrogram asyncio 2.0.106</a>\n┃ ѕσυя¢є ¢σ∂є : <a href=https://t.me/Mr_Bankaiiii>тαℓк тσ нιм</a>\n┃ мαιη ¢нαηηєℓ : <a href=https://t.me/Animex_Hyper>αɳιɱҽ hyper</a>\n┃ Sυρρσɾƚ Gɾσυρ : <a href=https://t.me/AnimeX_Chatting>ѕυρρσят gяσυρ</a>\n┗━━━━━•◦●◉✿ ❟❛❟ ✿◉●◦•━━━━━━┛</b>",
             disable_web_page_preview = True,
             reply_markup = InlineKeyboardMarkup(
                 [
